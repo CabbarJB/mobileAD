@@ -1,0 +1,115 @@
+.ad{
+    font-family: sans-serif;
+    user-select: none;
+}
+.ad-top-section{
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.ad-time-wrapper{
+    background-color: #fafafa;
+    display: flex;
+    align-items: center;
+    padding: 3px 3px 3px 8px;
+    border-radius: 30px;
+}
+.ad-close-btn{
+    transform: rotate(45deg);
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    font-size: 30px;
+    background-color: #fefefe;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 4px lightgrey;
+    color: #4A4A4C;
+    text-align: center;
+    vertical-align: middle;
+}
+.ad-time-seconds{
+    margin-right: 10px;
+    font-size: 14px;
+}
+.app-details-wrapper{
+    display: flex;
+    padding: 10px;
+}
+.app-img-wrapper{
+    width: 90px;
+    height: 90px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.app-img-wrapper img{
+    width: 100%;
+}
+.app-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.app-name{
+    font-weight: bold;
+    font-size: 20px;
+}
+.app-subtitle{
+    font-size: 12px;
+}
+.get-app-btn{
+    width: 90px;
+    padding: 7px 0px;
+    border-radius: 20px;
+    background-color: #eeeff4;
+    border: none;
+    box-shadow: 0 2px 2px lightgrey;
+}
+
+.ad-video{
+    width: 100%;
+    margin-top: 10px;
+    position: relative;
+
+}
+.ad-video video{
+    width: 100%;
+    z-index: -9;
+}
+.video-mute-btn{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    color: white;
+    font-size: 25px;
+    z-index: 99999;
+}
+.app-description{
+    padding: 35px 10px 10px;
+    text-align: center;
+    font-size: 14px;
+    color: dimgrey;
+    line-height: 20px;
+}
+.app-rating{
+    padding: 20px;
+    text-align: center;
+    color: dimgray;
+
+    font-size: 18px;
+}
+.app-rating-main{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.app-rating-num{
+    margin-right: 7px;
+}
+.app-total-rates{
+    margin-top: 20px;
+}
